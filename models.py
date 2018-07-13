@@ -32,7 +32,7 @@ class RentalByWeek(Rental):
         super(RentalByWeek, self).__init__(duration=weeks, charging=60)
 
 
-class BasePromotion(object):
+class Promotion(object):
     __discount = 0
     __rentals = []
 
@@ -51,7 +51,7 @@ class BasePromotion(object):
         self.__discount = float(abs(discount)) / 100
 
 
-class FamilyRental(BasePromotion):
+class FamilyRental(Promotion):
     min_rentals = 3
     max_rentals = 5
 
