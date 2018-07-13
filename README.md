@@ -5,7 +5,7 @@ Just execute ``pip install -r requirements.txt``.
 ## Design
 The model describes a company that rents bikes under some options.
 ### Models
-![Class diagram](diagram.png)
+![Class diagram](https://raw.githubusercontent.com/hurta2yaisel/pytest-demo/master/diagram.png)
 #### Rental
 Base class for rentals. This class has the following attributes:
 - duration: Duration of the rent.
