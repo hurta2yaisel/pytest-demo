@@ -1,5 +1,5 @@
 # pytest-demo
-Just a pytest demo.
+A simple pytest demo.
 ## Setup
 Just execute ``pip install -r requirements.txt``.
 ## Design
