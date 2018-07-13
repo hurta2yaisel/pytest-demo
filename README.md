@@ -16,7 +16,7 @@ Rental by hour, charging $5 per hour.
 #### RentalByDay
 Rental by day, charging $20 a day.
 #### RentalByWeek
-Rental by week, changing $60 a week.
+Rental by week, charging $60 a week.
 #### Promotion
 Base class for discount promotions.
 - __discount: Discount percent for applying to the total price.
