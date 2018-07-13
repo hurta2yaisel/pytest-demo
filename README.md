@@ -22,11 +22,11 @@ Base class for discount promotions.
 - __discount: Discount percent for applying to the total price.
 - __rentals: Rentals list.
 #### FamilyRental
-Promotion that can include from 3 to 5 Rentals (of any type) with a discount of 30% of the total price.
+Promotion that can include from 3 to 5 rentals (of any type) with a discount of 30% of the total price.
 - min_rentals: Minimal amount of rentals set to 3.
 - max_rentals: Maximum limit of rentals set to 3.
 - rentals: Property that applies some validations to the rentals list for this promotion.
 - total_price: Property that calculates the total price by multiplying the sum of rentals prices by the discount.
 
 ## Testing
-Enter to the directory and execute the command ``pytest``.
+Enter to the project root directory and execute the command ``pytest``.
